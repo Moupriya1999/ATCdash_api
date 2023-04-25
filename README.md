@@ -90,5 +90,5 @@ DATABASES = {
    
    # API
   * use this url for API: http://127.0.0.1:8000/users/  
-  * call API through Postman or your choice of API platform
+  * call API through Postman or your choice of API platform 
 
