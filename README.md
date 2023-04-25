@@ -1,4 +1,4 @@
-# ATCdash_api
+# ATCdash_SupportSquard
 
 <b> This is a project of Adamas Tech Consultancy for monitoring Support System related to SMS (Student Management System) and LMS (Learning Management System)</b>
 
