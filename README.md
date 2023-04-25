@@ -25,10 +25,14 @@ Overall, having a dashboard that tracks these different segments can help ensure
 
   Nees to install the following packages
 
-<b>.</b> Python
-<b>.</b> Django
-<b>.</b> django-allauth
-<b>.</b> django-auditlog
-
+  1. Python
+  2. Django
+  3. django-allauth
+  4. django-auditlog
+  5. djangorestframework
+  6. mysqlclient
+  7. Pillow
+  8. oauthlib
+  9. 
  
 
