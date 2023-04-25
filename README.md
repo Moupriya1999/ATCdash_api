@@ -62,8 +62,12 @@ DATABASES = {<br>
    1.python manage.py makemigrations
 
    2.python manage.py migrate
+   
+   3. Now crete super user using the command: python manage.py createsuperuser
 
-   3.python manage.py runserver
+   4. Then give username and password for super user
+
+   5. Then run the project using the command: python manage.py runserver
    
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ 
    
