@@ -34,10 +34,27 @@ Overall, having a dashboard that tracks these different segments can help ensure
   7. Pillow
   8. oauthlib
   9. djangorestframework-simplejwt
+ OR
+ 
+ Clone using
+ 
  
  # <b>Usage</b>
-   Run the below commands after setting up the project
+   Fill database name , database password and user in settings.py like
    
+   
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_databse_name',
+        'USER': 'username',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+    
+    Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database. then migrate to load the           operations of Data Migrations in database.
+    
    1.python manage.py makemigrations
 
    2.python manage.py migrate
