@@ -34,10 +34,14 @@ Overall, having a dashboard that tracks these different segments can help ensure
   7. Pillow
   8. oauthlib
   9. djangorestframework-simplejwt
- OR
+  
+ <b>OR</b>
  
  Clone using
- 
+ 1. https://github.com/Moupriya1999/ATCdash_api.git
+ 2. virtualenv env
+ 3. pip install -r requirements.txt
+ 4. cd dashboard
  
  # <b>Usage</b>
    Fill database name , database password and user in settings.py like
