@@ -39,17 +39,20 @@ Overall, having a dashboard that tracks these different segments can help ensure
  
  Clone using
  ```bash
- * https://github.com/Moupriya1999/ATCdash_api.git
+  https://github.com/Moupriya1999/ATCdash_api.git
  ```
  * virtualenv env
- * pip install -r requirements.txt
- * cd dashboard
- 
+ ```bash
+  pip install -r requirements.txt
+  ```
+  ```bash
+  cd dashboard
+ ```
  # <b>Usage</b>
    Fill database name , database password and user in settings.py like
    
  ```bash  
-DATABASES = {<br>
+DATABASES = {
     'default': {<br>
         'ENGINE': 'django.db.backends.mysql',<br>
         'NAME': 'your_databse_name',<br>
@@ -62,17 +65,20 @@ DATABASES = {<br>
     Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database.
     
     Then migrate to load the operations of Data Migrations in database.
-    
-   * python manage.py makemigrations
-
-   * python manage.py migrate
-   
+   ```bash 
+    python manage.py makemigrations
+   ```
+   ```bash
+   python manage.py migrate
+   ```
    * Now crete super user using the command: python manage.py createsuperuser
 
    * Then give username and password for super user
 
-   * Then run the project using the command: python manage.py runserver
-   
+   * Then run the project using the command:
+   ```bash
+    python manage.py runserver
+   ```
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ 
    
    # API
