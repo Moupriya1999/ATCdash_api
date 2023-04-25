@@ -57,19 +57,22 @@ DATABASES = {<br>
         'PORT': '3306',<br>
     }
     
-    Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database. then migrate to load the           operations of Data Migrations in database.
+    Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database.
     
-   1.python manage.py makemigrations
+    Then migrate to load the operations of Data Migrations in database.
+    
+   * python manage.py makemigrations
 
-   2.python manage.py migrate
+   * python manage.py migrate
    
-   3. Now crete super user using the command: python manage.py createsuperuser
+   * Now crete super user using the command: python manage.py createsuperuser
 
-   4. Then give username and password for super user
+   * Then give username and password for super user
 
-   5. Then run the project using the command: python manage.py runserver
+   * Then run the project using the command: python manage.py runserver
    
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ 
    
-   use this url for API: http://127.0.0.1:8000/users/  and call API through Postman or your choice of API platform
+  * use this url for API: http://127.0.0.1:8000/users/  
+  * call API through Postman or your choice of API platform
 
