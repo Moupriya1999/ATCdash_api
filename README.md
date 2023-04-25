@@ -25,23 +25,23 @@ Overall, having a dashboard that tracks these different segments can help ensure
 
  At first download the zip file of this project and extract it. Then open it in a choice of editor. After that install the following packages
 
-  1. Python
-  2. Django
-  3. django-allauth
-  4. django-auditlog
-  5. djangorestframework
-  6. mysqlclient
-  7. Pillow
-  8. oauthlib
-  9. djangorestframework-simplejwt
+  * Python
+  * Django
+  * django-allauth
+  * django-auditlog
+  * djangorestframework
+  * mysqlclient
+  * Pillow
+  * oauthlib
+  * djangorestframework-simplejwt
   
  <b>OR</b>
  
  Clone using
- 1. https://github.com/Moupriya1999/ATCdash_api.git
- 2. virtualenv env
- 3. pip install -r requirements.txt
- 4. cd dashboard
+ * https://github.com/Moupriya1999/ATCdash_api.git
+ * virtualenv env
+ * pip install -r requirements.txt
+ * cd dashboard
  
  # <b>Usage</b>
    Fill database name , database password and user in settings.py like
