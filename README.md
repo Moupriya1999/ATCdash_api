@@ -23,7 +23,7 @@ Overall, having a dashboard that tracks these different segments can help ensure
 
 # <b>Installation</b>:
 
-  Nees to install the following packages
+ At first download the zip file of this project and extract it. Then open it in a choice of editor. After that install the following packages
 
   1. Python
   2. Django
@@ -33,6 +33,7 @@ Overall, having a dashboard that tracks these different segments can help ensure
   6. mysqlclient
   7. Pillow
   8. oauthlib
-  9. 
+  9. djangorestframework-simplejwt
+ 
  
 
