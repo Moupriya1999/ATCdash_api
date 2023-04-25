@@ -23,14 +23,22 @@ Overall, having a dashboard that tracks these different segments can help ensure
 
 # <b>Installation</b>:
 
+1. Python v3.10.5
+
+2. Django 4.1.7  
+
+3. MySQL(recommended), PostgreSQL, Oracle Database and SQLite  
+
+4. POSTMAN (recommended), Swagger - API Call
+
+
+
+
  At first download the zip file of this project and extract it. Then open it in a choice of editor. After that install the following packages
 
-  * Python
-  * Django
   * django-allauth
   * django-auditlog
   * djangorestframework
-  * mysqlclient
   * Pillow
   * oauthlib
   * djangorestframework-simplejwt
@@ -76,7 +84,7 @@ DATABASES = {
     python manage.py makemigrations
    ```
    ```bash
-   python manage.py migrate
+    python manage.py migrate
    ```
    * Now crete super user using the command: python manage.py createsuperuser
 
