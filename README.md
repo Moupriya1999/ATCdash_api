@@ -38,7 +38,9 @@ Overall, having a dashboard that tracks these different segments can help ensure
  <b>OR</b>
  
  Clone using
+ ```bash
  * https://github.com/Moupriya1999/ATCdash_api.git
+ ```
  * virtualenv env
  * pip install -r requirements.txt
  * cd dashboard
@@ -46,7 +48,7 @@ Overall, having a dashboard that tracks these different segments can help ensure
  # <b>Usage</b>
    Fill database name , database password and user in settings.py like
    
-   
+ ```bash  
 DATABASES = {<br>
     'default': {<br>
         'ENGINE': 'django.db.backends.mysql',<br>
@@ -56,7 +58,7 @@ DATABASES = {<br>
         'HOST': '127.0.0.1',<br>
         'PORT': '3306',<br>
     }
-    
+   ```
     Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database.
     
     Then migrate to load the operations of Data Migrations in database.
