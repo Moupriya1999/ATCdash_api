@@ -44,5 +44,5 @@ Overall, having a dashboard that tracks these different segments can help ensure
 
    3.python manage.py runserver
    
-   In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
+   In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ 
 
