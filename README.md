@@ -41,7 +41,14 @@ Overall, having a dashboard that tracks these different segments can help ensure
  ```bash
   https://github.com/Moupriya1999/ATCdash_api.git
  ```
- * virtualenv env
+ * Add a new virtual environment to this project (venv). to create venv follow the below commands and copy and paste to your IDE terminal.
+```bash
+python -m venv venv
+```
+now to activate venv
+```bash
+cd venv/Scripts/activate.ps1
+```
  ```bash
   pip install -r requirements.txt
   ```
