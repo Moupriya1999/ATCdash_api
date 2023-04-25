@@ -47,14 +47,14 @@ Overall, having a dashboard that tracks these different segments can help ensure
    Fill database name , database password and user in settings.py like
    
    
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_databse_name',
-        'USER': 'username',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+DATABASES = {<br>
+    'default': {<br>
+        'ENGINE': 'django.db.backends.mysql',<br>
+        'NAME': 'your_databse_name',<br>
+        'USER': 'username',<br>
+        'PASSWORD': 'password',<br>
+        'HOST': '127.0.0.1',<br>
+        'PORT': '3306',<br>
     }
     
     Now run make migrations command, running make migrations command will perform Data Migrations to save the "Badges" in the database. then migrate to load the           operations of Data Migrations in database.
