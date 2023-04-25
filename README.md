@@ -21,4 +21,14 @@ e) <b>LMS:</b> This segment would display information related to the Learning Ma
 Overall, having a dashboard that tracks these different segments can help ensure that the support system is running smoothly and efficiently, while also providing valuable insights into areas that may require improvement.
 
 
-#Requirements
+# <b>Installation</b>:
+
+  Nees to install the following packages
+
+<b>.</b> Python
+<b>.</b> Django
+<b>.</b> django-allauth
+<b>.</b> django-auditlog
+
+ 
+
