@@ -35,5 +35,14 @@ Overall, having a dashboard that tracks these different segments can help ensure
   8. oauthlib
   9. djangorestframework-simplejwt
  
- 
+ # <b>Usage</b>
+   Run the below commands after setting up the project
+   
+   1.python manage.py makemigrations
+
+   2.python manage.py migrate
+
+   3.python manage.py runserver
+   
+   In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
 
