@@ -73,6 +73,7 @@ DATABASES = {<br>
    
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/ 
    
+   # API
   * use this url for API: http://127.0.0.1:8000/users/  
   * call API through Postman or your choice of API platform
 
