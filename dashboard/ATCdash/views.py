@@ -12,6 +12,8 @@ from rest_framework import generics, permissions, status
 from .serializers import UserSerializer
 from rest_framework.exceptions import ValidationError
 from rest_framework.permissions import IsAdminUser
+from datetime import timedelta
+from django.utils import timezone
 #Token View
 from rest_framework.authtoken.models import Token
 from rest_framework.views import APIView
@@ -133,7 +135,15 @@ class ObtainTokenView(APIView):
         password = request.data.get('password')
         user = authenticate(username=username, password=password)
         if user is not None:
-            token, created = Token.objects.get_or_create(user=user)
+            # Remove any existing tokens for this user
+            Token.objects.filter(user=user).delete()
+            # Generate a new token for the user
+            token = Token.objects.create(user=user)
+            # Set the token expiry time to 24 hours from now
+            token.expires = timezone.now() + timedelta(hours=24)
+            token.save()
             return Response({'token': token.key})
         else:
             return Response({'error': 'Invalid credentials'})
+
+           return Response({'error': 'Invalid credentials'})
